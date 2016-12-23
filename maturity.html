@@ -3,40 +3,25 @@
   <head>
     <meta charset="utf-8">
     <title>PLC Metrics</title>
-        <!-- Latest compiled and minified CSS -->
+    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <style media="screen">
       @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700';
       body {
         font-family: 'Source Sans Pro', Tahoma, sans-serif;
         font-size: 12pt;
       }
-      /*header {
-        padding: 100px 0;
-        background-color: lightgray;
-      }*/
-      .intro {
-        /*padding: 30px 0px;*/
-      }
-      /*.chart {
-        margin: 10px auto;
-        border: 1px red solid;
-        padding: 0px auto;
-        width: 600px;
-      }*/
       .frame {
         height: 400px;
         width: 600px;
         border: none;
       }
       .jumbotron {
-        background-image: url('images/Pearson-pattern-Atoms.png');
+        background-image: url('Pearson-pattern-Atoms.png');
         background-size: 100%;
         color: white;
       }
@@ -46,12 +31,15 @@
         padding: 100px 0px;
       }
       .kumu {
-        width: 940px;
+        width: 90%;
+        min-height: 500px;
         margin: 0 auto;
       }
     </style>
   </head>
+
   <body>
+
     <header>
       <div class="jumbotron">
         <div class="container">
@@ -59,141 +47,395 @@
         </div>
       </div>
     </header>
+
     <div class="container">
       <p class="intro">
         Each month the PLC team sends a 6-question survey to each active product council across Pearson. The results tell us about the level and rigor of activity around PLC across the business. The long term goal is to get the charts to go up and to the right. However, in the short term these are important indicators of where and how the PLC team can support these groups as they transition to a more responsive and agile way of managing products.
         <br><br>
         Each chart below includes a basic overview and a some notes about the latest month's data. <strong>All charts are up to date as of: <mark class="text-uppercase">December 1, 2016</mark></strong>
       </p>
-
-
-      <section>
-        <div class="page-header">
-          <h2>How Many Meetings?</h2>
-        </div>
-          <div class="row">
-            <div class="col-md-4">
-              <p>
-                Product council meetings are the basic pulse of PLC. We like to see them happening at least once each month per council. A few do them ad hoc because of a small portfolio. Others need to meet more often than that. It's just a rule of thumb.
-              </p>
-              <p>
-                <strong class="bg-info">October notes</strong>: There were fewer meetings this month than in September, but more than any previous month, so the overall trend is still up. This means activity is spreading. There have been 60 product council meetings since we started tracking in May. Importantly, Brazil is down to 1 meting this month, which means more councils are are having multiple meetings.
-              </p>
-            </div>
-            <div class="col-md-8">
-              <iframe class="frame center-block" src="https://docs.google.com/a/pearson.com/spreadsheets/d/1_CtxGNXgsB0bh0TXpsCAZt1JR76qYiAdkfweFErw2WI/pubchart?oid=251328902&amp;format=interactive"></iframe>
-            </div>
-          </div>
-      </section>
-
-
-      <section>
-        <div class="page-header">
-          <h2>Templates In Use</h2>
-        </div>
-          <div class="row">
-            <div class="col-md-4">
-              <p>
-                Product Life Cycle templates help to organize product information within the PLC framework. They pose important questions that ensure we are getting out of the building, talking with clients, identifying risky assumptions and gathering evidence that de-risks our ideas. Any council visible in the chart is using the templates.
-              </p>
-              <p>
-                <strong class="bg-info">October notes</strong>: Use of the templates is at an all time low. I don’t actually know why, but plan to investigate with the adoption leads. As July shows, they’ve been used before by several product councils. So it’s not a matter of awareness. Is it a usability issue? Are they not providing enough value? This raises concerns for the fidelity of decisions (of which there were a lot in October) so getting to the bottom if this is important.
-              </p>
-            </div>
-            <div class="col-md-8">
-              <iframe class="frame center-block" src="https://docs.google.com/a/pearson.com/spreadsheets/d/1_CtxGNXgsB0bh0TXpsCAZt1JR76qYiAdkfweFErw2WI/pubchart?oid=1960736957&amp;format=interactive"></iframe>
-            </div>
-          </div>
-      </section>
-
-      <section>
-        <div class="page-header">
-          <h2>How Many Products?</h2>
-        </div>
-          <div class="row">
-            <div class="col-md-4">
-              <p>
-                The number of products being reviewed at a product council meeting -- regardless of whether a decision is made -- points towards how much of our portfolio is being governed within the PLC method.
-              </p>
-              <p>
-                <strong class="bg-info">October notes</strong>: Brazil, despite only one product council meeting, is still far ahead of other councils in the number of decisions… 58 decisions in one meeting!!! That must have been a loooong meeting. Absent Brazil, there are about the same number of unique products getting a decision from a product council as last month. So we are cycling through our portfolio at a steady pace, which should mean that we are getting closer to having our entire portfolio managed through the PLC process.
-              </p>
-            </div>
-            <div class="col-md-8">
-              <iframe class="frame center-block" src="https://docs.google.com/a/pearson.com/spreadsheets/d/1_CtxGNXgsB0bh0TXpsCAZt1JR76qYiAdkfweFErw2WI/pubchart?oid=124923954&amp;format=interactive"></iframe>
-            </div>
-          </div>
-      </section>
-
-      <section>
-        <div class="page-header">
-          <h2>How Many Decisions?</h2>
-        </div>
-          <div class="row">
-            <div class="col-md-4">
-              <p>
-                Just because a product goes to council doesn't mean that a decision is being made whether or not to invest. So we track the number of actual decisions made in order to determine the financial aspect of PLC activity. The goal is to make smaller, faster bets that are based on real engagement with customers.
-              </p>
-              <p>
-                <strong class="bg-info">October notes</strong>: Brazil, again, is making as many decisions as the rest of the product councils combined. I’ll get more information on their process soon and post it here. Both the Middle East and UK Qualifications made a dozen decisions this month, but the former did it in a single meeting while the latter did it over three. On average there are 6 decisions happening per meeting, but only 2.5 decisions per meeting if you take Brazil out of it. The ideal product council is can make an incremental investment decision in under 20 minutes, so 3 to 4 in an hour. Use that as a target to shoot for, and a guide for gauging how many meetings you need to have in order to process your backlog of investment decisions.
-              </p>
-            </div>
-            <div class="col-md-8">
-              <iframe class="frame center-block" src="https://docs.google.com/a/pearson.com/spreadsheets/d/1_CtxGNXgsB0bh0TXpsCAZt1JR76qYiAdkfweFErw2WI/pubchart?oid=929443570&amp;format=interactive"></iframe>
-            </div>
-          </div>
-      </section>
-
-      <!-- <section>
-        <div class="page-header">
-          <h2>How Many Coaches?</h2>
-        </div>
-          <div class="row">
-            <div class="col-md-4">
-              <p>
-                PLC coaches represent a level of fluency and influence around the PLC. Roughly speaking, the more coaches you have, the more fluent your business is in PLC methodology and thus the more decisions should be influenced by that thinking. It's not a perfect science, but it's a metric worth watching.
-              </p>
-              <p class="bg-info">
-                <strong>August notes</strong>: coming soon.
-              </p>
-            </div>
-            <div class="col-md-8">
-              <iframe class="frame center-block" src="https://docs.google.com/a/pearson.com/spreadsheets/d/1_CtxGNXgsB0bh0TXpsCAZt1JR76qYiAdkfweFErw2WI/pubchart?oid=719061188&amp;format=interactive"></iframe>
-            </div>
-          </div>
-      </section> -->
-
-      <section>
-        <div class="page-header">
-          <h2>Product Granularity Implemented?</h2>
-        </div>
-          <div class="row">
-            <div class="col-md-4">
-              <p>
-                Each council manages a portfolio of products. That portfolio needs to be mapped to Pearson's global product taxonomy. That mapping process is known as "product granularity." So this question is asking whether or not you've started that process. It's a scale of 1-4. The higher the number, the more fully mapped is their portfolio.
-              </p>
-              <p>
-                <strong class="bg-info">October notes</strong>: The granularity data seems to be strong. Every council is at least aware of the granularity mapping process and most of them have started the process of mapping their portfolio. China has apparently mapped their entire portfolio. Remember, this is the critical step in getting up and running with Planview, so if you have mapped at least a few of the products in your portfolio, let’s start talking about getting you set up in Planview soon
-              </p>
-            </div>
-            <div class="col-md-8">
-              <iframe class="frame center-block " src="https://docs.google.com/a/pearson.com/spreadsheets/d/1_CtxGNXgsB0bh0TXpsCAZt1JR76qYiAdkfweFErw2WI/pubchart?oid=1777327760&amp;format=interactive"></iframe>
-            </div>
-          </div>
-      </section>
-
     </div>
+
+    <div class="container">
+      <ul class="nav nav-pills nav-justified" id="MyTab">
+        <li role="presentation" class="active"><a data-toggle="pill" href="#maturity">Global Maturity</a></li>
+        <li role="presentation"><a data-toggle="pill" href="#starting">Starting Up</a></li>
+        <li role="presentation"><a data-toggle="pill" href="#moving">Getting Moving</a></li>
+        <li role="presentation"><a data-toggle="pill" href="#basic">Basic Fidelity</a></li>
+        <li role="presentation"><a data-toggle="pill" href="#advanced">Advanced Fidelity</a></li>
+        <li role="presentation"><a data-toggle="pill" href="#network">PLC Network</a></li>
+      </ul>
+    </div>
+
+    <div class="tab-content">
+
+      <section id="maturity" class="tab-pane active container">
+        <div class="page-header">
+          <h2>Racehorce Maturity</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <p>
+              Product council meetings are the basic pulse of PLC. We like to see them happening at least once each month per council. A few do them ad hoc because of a small portfolio. Others need to meet more often than that. It's just a rule of thumb.
+            </p>
+            <p>
+              <strong class="bg-info">October notes</strong>: There were fewer meetings this month than in September, but more than any previous month, so the overall trend is still up. This means activity is spreading. There have been 60 product council meetings since we started tracking in May. Importantly, Brazil is down to 1 meting this month, which means more councils are are having multiple meetings.
+            </p>
+          </div>
+          <div class="col-md-8">
+            <iframe class="frame center-block" src="https://docs.google.com/a/pearson.com/spreadsheets/d/1_CtxGNXgsB0bh0TXpsCAZt1JR76qYiAdkfweFErw2WI/pubchart?oid=251328902&amp;format=interactive"></iframe>
+          </div>
+        </div>
+
+        <div class="page-header">
+          <h2>Bubble Chart</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <p>
+              Product council meetings are the basic pulse of PLC. We like to see them happening at least once each month per council. A few do them ad hoc because of a small portfolio. Others need to meet more often than that. It's just a rule of thumb.
+            </p>
+            <p>
+              <strong class="bg-info">October notes</strong>: There were fewer meetings this month than in September, but more than any previous month, so the overall trend is still up. This means activity is spreading. There have been 60 product council meetings since we started tracking in May. Importantly, Brazil is down to 1 meting this month, which means more councils are are having multiple meetings.
+            </p>
+          </div>
+          <div class="col-md-8">
+            <iframe class="frame center-block" src="https://docs.google.com/a/pearson.com/spreadsheets/d/1_CtxGNXgsB0bh0TXpsCAZt1JR76qYiAdkfweFErw2WI/pubchart?oid=251328902&amp;format=interactive"></iframe>
+          </div>
+        </div>
+
+        <div class="page-header">
+          <h2>Maturity Over Time</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <p>
+              Product council meetings are the basic pulse of PLC. We like to see them happening at least once each month per council. A few do them ad hoc because of a small portfolio. Others need to meet more often than that. It's just a rule of thumb.
+            </p>
+            <p>
+              <strong class="bg-info">October notes</strong>: There were fewer meetings this month than in September, but more than any previous month, so the overall trend is still up. This means activity is spreading. There have been 60 product council meetings since we started tracking in May. Importantly, Brazil is down to 1 meting this month, which means more councils are are having multiple meetings.
+            </p>
+          </div>
+          <div class="col-md-8">
+            <iframe class="frame center-block" src="https://docs.google.com/a/pearson.com/spreadsheets/d/1_CtxGNXgsB0bh0TXpsCAZt1JR76qYiAdkfweFErw2WI/pubchart?oid=251328902&amp;format=interactive"></iframe>
+          </div>
+        </div>
+
+        <div class="page-header">
+          <h2>Complete Metrics</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <p>
+              Product council meetings are the basic pulse of PLC. We like to see them happening at least once each month per council. A few do them ad hoc because of a small portfolio. Others need to meet more often than that. It's just a rule of thumb.
+            </p>
+            <p>
+              <strong class="bg-info">October notes</strong>: There were fewer meetings this month than in September, but more than any previous month, so the overall trend is still up. This means activity is spreading. There have been 60 product council meetings since we started tracking in May. Importantly, Brazil is down to 1 meting this month, which means more councils are are having multiple meetings.
+            </p>
+          </div>
+          <div class="col-md-8">
+            <iframe class="frame center-block" src="https://docs.google.com/a/pearson.com/spreadsheets/d/1_CtxGNXgsB0bh0TXpsCAZt1JR76qYiAdkfweFErw2WI/pubchart?oid=251328902&amp;format=interactive"></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section id="starting" class="tab-pane container">
+        <div class="page-header">
+          <h2>Members</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <p>
+              Product Life Cycle templates help to organize product information within the PLC framework. They pose important questions that ensure we are getting out of the building, talking with clients, identifying risky assumptions and gathering evidence that de-risks our ideas. Any council visible in the chart is using the templates.
+            </p>
+            <p>
+              <strong class="bg-info">October notes</strong>: Use of the templates is at an all time low. I don’t actually know why, but plan to investigate with the adoption leads. As July shows, they’ve been used before by several product councils. So it’s not a matter of awareness. Is it a usability issue? Are they not providing enough value? This raises concerns for the fidelity of decisions (of which there were a lot in October) so getting to the bottom if this is important.
+            </p>
+          </div>
+          <div class="col-md-8">
+            <iframe class="frame center-block" src="https://docs.google.com/a/pearson.com/spreadsheets/d/1_CtxGNXgsB0bh0TXpsCAZt1JR76qYiAdkfweFErw2WI/pubchart?oid=1960736957&amp;format=interactive"></iframe>
+          </div>
+        </div>
+
+        <div class="page-header">
+          <h2>Charter</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <p>
+              Product Life Cycle templates help to organize product information within the PLC framework. They pose important questions that ensure we are getting out of the building, talking with clients, identifying risky assumptions and gathering evidence that de-risks our ideas. Any council visible in the chart is using the templates.
+            </p>
+            <p>
+              <strong class="bg-info">October notes</strong>: Use of the templates is at an all time low. I don’t actually know why, but plan to investigate with the adoption leads. As July shows, they’ve been used before by several product councils. So it’s not a matter of awareness. Is it a usability issue? Are they not providing enough value? This raises concerns for the fidelity of decisions (of which there were a lot in October) so getting to the bottom if this is important.
+            </p>
+          </div>
+          <div class="col-md-8">
+            <iframe class="frame center-block" src="https://docs.google.com/a/pearson.com/spreadsheets/d/1_CtxGNXgsB0bh0TXpsCAZt1JR76qYiAdkfweFErw2WI/pubchart?oid=1960736957&amp;format=interactive"></iframe>
+          </div>
+        </div>
+
+        <div class="page-header">
+          <h2>Accelerated Adoption Workshop</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <p>
+              Product Life Cycle templates help to organize product information within the PLC framework. They pose important questions that ensure we are getting out of the building, talking with clients, identifying risky assumptions and gathering evidence that de-risks our ideas. Any council visible in the chart is using the templates.
+            </p>
+            <p>
+              <strong class="bg-info">October notes</strong>: Use of the templates is at an all time low. I don’t actually know why, but plan to investigate with the adoption leads. As July shows, they’ve been used before by several product councils. So it’s not a matter of awareness. Is it a usability issue? Are they not providing enough value? This raises concerns for the fidelity of decisions (of which there were a lot in October) so getting to the bottom if this is important.
+            </p>
+          </div>
+          <div class="col-md-8">
+            <iframe class="frame center-block" src="https://docs.google.com/a/pearson.com/spreadsheets/d/1_CtxGNXgsB0bh0TXpsCAZt1JR76qYiAdkfweFErw2WI/pubchart?oid=1960736957&amp;format=interactive"></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section id="moving" class="tab-pane container">
+        <div class="page-header">
+          <h2>Meetings</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <p>
+              The number of products being reviewed at a product council meeting -- regardless of whether a decision is made -- points towards how much of our portfolio is being governed within the PLC method.
+            </p>
+            <p>
+              <strong class="bg-info">October notes</strong>: Brazil, despite only one product council meeting, is still far ahead of other councils in the number of decisions… 58 decisions in one meeting!!! That must have been a loooong meeting. Absent Brazil, there are about the same number of unique products getting a decision from a product council as last month. So we are cycling through our portfolio at a steady pace, which should mean that we are getting closer to having our entire portfolio managed through the PLC process.
+            </p>
+          </div>
+          <div class="col-md-8">
+            <iframe class="frame center-block" src="https://docs.google.com/a/pearson.com/spreadsheets/d/1_CtxGNXgsB0bh0TXpsCAZt1JR76qYiAdkfweFErw2WI/pubchart?oid=124923954&amp;format=interactive"></iframe>
+          </div>
+        </div>
+
+        <div class="page-header">
+          <h2>Decisions</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <p>
+              The number of products being reviewed at a product council meeting -- regardless of whether a decision is made -- points towards how much of our portfolio is being governed within the PLC method.
+            </p>
+            <p>
+              <strong class="bg-info">October notes</strong>: Brazil, despite only one product council meeting, is still far ahead of other councils in the number of decisions… 58 decisions in one meeting!!! That must have been a loooong meeting. Absent Brazil, there are about the same number of unique products getting a decision from a product council as last month. So we are cycling through our portfolio at a steady pace, which should mean that we are getting closer to having our entire portfolio managed through the PLC process.
+            </p>
+          </div>
+          <div class="col-md-8">
+            <iframe class="frame center-block" src="https://docs.google.com/a/pearson.com/spreadsheets/d/1_CtxGNXgsB0bh0TXpsCAZt1JR76qYiAdkfweFErw2WI/pubchart?oid=124923954&amp;format=interactive"></iframe>
+          </div>
+        </div>
+
+        <div class="page-header">
+          <h2>Templates</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <p>
+              The number of products being reviewed at a product council meeting -- regardless of whether a decision is made -- points towards how much of our portfolio is being governed within the PLC method.
+            </p>
+            <p>
+              <strong class="bg-info">October notes</strong>: Brazil, despite only one product council meeting, is still far ahead of other councils in the number of decisions… 58 decisions in one meeting!!! That must have been a loooong meeting. Absent Brazil, there are about the same number of unique products getting a decision from a product council as last month. So we are cycling through our portfolio at a steady pace, which should mean that we are getting closer to having our entire portfolio managed through the PLC process.
+            </p>
+          </div>
+          <div class="col-md-8">
+            <iframe class="frame center-block" src="https://docs.google.com/a/pearson.com/spreadsheets/d/1_CtxGNXgsB0bh0TXpsCAZt1JR76qYiAdkfweFErw2WI/pubchart?oid=124923954&amp;format=interactive"></iframe>
+          </div>
+        </div>
+
+        <div class="page-header">
+          <h2>Granularity</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <p>
+              The number of products being reviewed at a product council meeting -- regardless of whether a decision is made -- points towards how much of our portfolio is being governed within the PLC method.
+            </p>
+            <p>
+              <strong class="bg-info">October notes</strong>: Brazil, despite only one product council meeting, is still far ahead of other councils in the number of decisions… 58 decisions in one meeting!!! That must have been a loooong meeting. Absent Brazil, there are about the same number of unique products getting a decision from a product council as last month. So we are cycling through our portfolio at a steady pace, which should mean that we are getting closer to having our entire portfolio managed through the PLC process.
+            </p>
+          </div>
+          <div class="col-md-8">
+            <iframe class="frame center-block" src="https://docs.google.com/a/pearson.com/spreadsheets/d/1_CtxGNXgsB0bh0TXpsCAZt1JR76qYiAdkfweFErw2WI/pubchart?oid=124923954&amp;format=interactive"></iframe>
+          </div>
+        </div>
+
+      </section>
+
+      <section id="basic" class="tab-pane container">
+        <div class="page-header">
+          <h2>Thresholds</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <p>
+              Just because a product goes to council doesn't mean that a decision is being made whether or not to invest. So we track the number of actual decisions made in order to determine the financial aspect of PLC activity. The goal is to make smaller, faster bets that are based on real engagement with customers.
+            </p>
+            <p>
+              <strong class="bg-info">October notes</strong>: Brazil, again, is making as many decisions as the rest of the product councils combined. I’ll get more information on their process soon and post it here. Both the Middle East and UK Qualifications made a dozen decisions this month, but the former did it in a single meeting while the latter did it over three. On average there are 6 decisions happening per meeting, but only 2.5 decisions per meeting if you take Brazil out of it. The ideal product council is can make an incremental investment decision in under 20 minutes, so 3 to 4 in an hour. Use that as a target to shoot for, and a guide for gauging how many meetings you need to have in order to process your backlog of investment decisions.
+            </p>
+          </div>
+          <div class="col-md-8">
+            <iframe class="frame center-block" src="https://docs.google.com/a/pearson.com/spreadsheets/d/1_CtxGNXgsB0bh0TXpsCAZt1JR76qYiAdkfweFErw2WI/pubchart?oid=929443570&amp;format=interactive"></iframe>
+          </div>
+        </div>
+
+        <div class="page-header">
+          <h2>Portfolio</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <p>
+              Just because a product goes to council doesn't mean that a decision is being made whether or not to invest. So we track the number of actual decisions made in order to determine the financial aspect of PLC activity. The goal is to make smaller, faster bets that are based on real engagement with customers.
+            </p>
+            <p>
+              <strong class="bg-info">October notes</strong>: Brazil, again, is making as many decisions as the rest of the product councils combined. I’ll get more information on their process soon and post it here. Both the Middle East and UK Qualifications made a dozen decisions this month, but the former did it in a single meeting while the latter did it over three. On average there are 6 decisions happening per meeting, but only 2.5 decisions per meeting if you take Brazil out of it. The ideal product council is can make an incremental investment decision in under 20 minutes, so 3 to 4 in an hour. Use that as a target to shoot for, and a guide for gauging how many meetings you need to have in order to process your backlog of investment decisions.
+            </p>
+          </div>
+          <div class="col-md-8">
+            <iframe class="frame center-block" src="https://docs.google.com/a/pearson.com/spreadsheets/d/1_CtxGNXgsB0bh0TXpsCAZt1JR76qYiAdkfweFErw2WI/pubchart?oid=929443570&amp;format=interactive"></iframe>
+          </div>
+        </div>
+
+        <div class="page-header">
+          <h2>Planview</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <p>
+              Just because a product goes to council doesn't mean that a decision is being made whether or not to invest. So we track the number of actual decisions made in order to determine the financial aspect of PLC activity. The goal is to make smaller, faster bets that are based on real engagement with customers.
+            </p>
+            <p>
+              <strong class="bg-info">October notes</strong>: Brazil, again, is making as many decisions as the rest of the product councils combined. I’ll get more information on their process soon and post it here. Both the Middle East and UK Qualifications made a dozen decisions this month, but the former did it in a single meeting while the latter did it over three. On average there are 6 decisions happening per meeting, but only 2.5 decisions per meeting if you take Brazil out of it. The ideal product council is can make an incremental investment decision in under 20 minutes, so 3 to 4 in an hour. Use that as a target to shoot for, and a guide for gauging how many meetings you need to have in order to process your backlog of investment decisions.
+            </p>
+          </div>
+          <div class="col-md-8">
+            <iframe class="frame center-block" src="https://docs.google.com/a/pearson.com/spreadsheets/d/1_CtxGNXgsB0bh0TXpsCAZt1JR76qYiAdkfweFErw2WI/pubchart?oid=929443570&amp;format=interactive"></iframe>
+          </div>
+        </div>
+
+        <div class="page-header">
+          <h2>Quarterlies</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <p>
+              Just because a product goes to council doesn't mean that a decision is being made whether or not to invest. So we track the number of actual decisions made in order to determine the financial aspect of PLC activity. The goal is to make smaller, faster bets that are based on real engagement with customers.
+            </p>
+            <p>
+              <strong class="bg-info">October notes</strong>: Brazil, again, is making as many decisions as the rest of the product councils combined. I’ll get more information on their process soon and post it here. Both the Middle East and UK Qualifications made a dozen decisions this month, but the former did it in a single meeting while the latter did it over three. On average there are 6 decisions happening per meeting, but only 2.5 decisions per meeting if you take Brazil out of it. The ideal product council is can make an incremental investment decision in under 20 minutes, so 3 to 4 in an hour. Use that as a target to shoot for, and a guide for gauging how many meetings you need to have in order to process your backlog of investment decisions.
+            </p>
+          </div>
+          <div class="col-md-8">
+            <iframe class="frame center-block" src="https://docs.google.com/a/pearson.com/spreadsheets/d/1_CtxGNXgsB0bh0TXpsCAZt1JR76qYiAdkfweFErw2WI/pubchart?oid=929443570&amp;format=interactive"></iframe>
+          </div>
+        </div>
+
+      </section>
+
+      <section id="advanced" class="tab-pane container">
+        <div class="page-header">
+          <h2>Pruned</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <p>
+              Each council manages a portfolio of products. That portfolio needs to be mapped to Pearson's global product taxonomy. That mapping process is known as "product granularity." So this question is asking whether or not you've started that process. It's a scale of 1-4. The higher the number, the more fully mapped is their portfolio.
+            </p>
+            <p>
+              <strong class="bg-info">October notes</strong>: The granularity data seems to be strong. Every council is at least aware of the granularity mapping process and most of them have started the process of mapping their portfolio. China has apparently mapped their entire portfolio. Remember, this is the critical step in getting up and running with Planview, so if you have mapped at least a few of the products in your portfolio, let’s start talking about getting you set up in Planview soon
+            </p>
+          </div>
+          <div class="col-md-8">
+            <iframe class="frame center-block " src="https://docs.google.com/a/pearson.com/spreadsheets/d/1_CtxGNXgsB0bh0TXpsCAZt1JR76qYiAdkfweFErw2WI/pubchart?oid=1777327760&amp;format=interactive"></iframe>
+          </div>
+        </div>
+
+        <div class="page-header">
+          <h2>Retired</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <p>
+              Each council manages a portfolio of products. That portfolio needs to be mapped to Pearson's global product taxonomy. That mapping process is known as "product granularity." So this question is asking whether or not you've started that process. It's a scale of 1-4. The higher the number, the more fully mapped is their portfolio.
+            </p>
+            <p>
+              <strong class="bg-info">October notes</strong>: The granularity data seems to be strong. Every council is at least aware of the granularity mapping process and most of them have started the process of mapping their portfolio. China has apparently mapped their entire portfolio. Remember, this is the critical step in getting up and running with Planview, so if you have mapped at least a few of the products in your portfolio, let’s start talking about getting you set up in Planview soon
+            </p>
+          </div>
+          <div class="col-md-8">
+            <iframe class="frame center-block " src="https://docs.google.com/a/pearson.com/spreadsheets/d/1_CtxGNXgsB0bh0TXpsCAZt1JR76qYiAdkfweFErw2WI/pubchart?oid=1777327760&amp;format=interactive"></iframe>
+          </div>
+        </div>
+
+        <div class="page-header">
+          <h2>Budget</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <p>
+              Each council manages a portfolio of products. That portfolio needs to be mapped to Pearson's global product taxonomy. That mapping process is known as "product granularity." So this question is asking whether or not you've started that process. It's a scale of 1-4. The higher the number, the more fully mapped is their portfolio.
+            </p>
+            <p>
+              <strong class="bg-info">October notes</strong>: The granularity data seems to be strong. Every council is at least aware of the granularity mapping process and most of them have started the process of mapping their portfolio. China has apparently mapped their entire portfolio. Remember, this is the critical step in getting up and running with Planview, so if you have mapped at least a few of the products in your portfolio, let’s start talking about getting you set up in Planview soon
+            </p>
+          </div>
+          <div class="col-md-8">
+            <iframe class="frame center-block " src="https://docs.google.com/a/pearson.com/spreadsheets/d/1_CtxGNXgsB0bh0TXpsCAZt1JR76qYiAdkfweFErw2WI/pubchart?oid=1777327760&amp;format=interactive"></iframe>
+          </div>
+        </div>
+
+        <div class="page-header">
+          <h2>Reallocated</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <p>
+              Each council manages a portfolio of products. That portfolio needs to be mapped to Pearson's global product taxonomy. That mapping process is known as "product granularity." So this question is asking whether or not you've started that process. It's a scale of 1-4. The higher the number, the more fully mapped is their portfolio.
+            </p>
+            <p>
+              <strong class="bg-info">October notes</strong>: The granularity data seems to be strong. Every council is at least aware of the granularity mapping process and most of them have started the process of mapping their portfolio. China has apparently mapped their entire portfolio. Remember, this is the critical step in getting up and running with Planview, so if you have mapped at least a few of the products in your portfolio, let’s start talking about getting you set up in Planview soon
+            </p>
+          </div>
+          <div class="col-md-8">
+            <iframe class="frame center-block " src="https://docs.google.com/a/pearson.com/spreadsheets/d/1_CtxGNXgsB0bh0TXpsCAZt1JR76qYiAdkfweFErw2WI/pubchart?oid=1777327760&amp;format=interactive"></iframe>
+          </div>
+        </div>
+
+      </section>
+
+      <section id="network" class="tab-pane container-fluid">
+        <div class="container">
+          <div class="page-header">
+            <h2>Bonus data viz experiment</h2>
+          </div>
+          <p>
+            Below is a network map of the PLC community. Each node (dot) is a person. Either a product council member or a PLC coach. Connections represent their membership on different councils. Try the following and see what happens: hover over a node, click on a node, press the Settings button on the right and play with the Cluster menu. Have fun!
+          </p>
+        </div>
+        <div class="kumu">
+          <iframe
+            src="https://embed.kumu.io/916c59a9996216870dae8e465ebb46d9"
+            width=100% height="700" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </section>
+    </div>
+
     <footer>
-      <h3 class="text-center">Bonus Data Visualization Experiment</h3>
-      <p class="text-center">
-        Below is a network map of the PLC community. Each node (dot) is a person. Either a product council member or a PLC coach. Connections represent their membership on different councils. Try the following and see what happens: hover over a node, click on a node, press the Settings button on the right and play with the Cluster menu. Have fun!
-      </p>
-      <div class="kumu">
-        <iframe
-          src="https://embed.kumu.io/916c59a9996216870dae8e465ebb46d9"
-          width="940" height="600" frameborder="0"></iframe>
-      </div>
     </footer>
 
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+      $('#myTab a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+      })
+    </script>
+
   </body>
+
 </html>
